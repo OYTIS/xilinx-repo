@@ -5,14 +5,14 @@
         <remote name="openembedded" fetch="git://git.openembedded.org/" />
 
         <!-- Core layers: poky and meta-oe -->
-        <project path="poky" name="poky" remote="yocto" revision="rocko" />
-        <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="rocko" />
+        <project path="poky" name="poky" remote="yocto" revision="master" />
+        <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="master" />
 
         <!-- Updater layers -->
-        <project path="meta-updater" name="advancedtelematic/meta-updater" remote="github" revision="rocko" />
+        <project path="meta-updater" name="advancedtelematic/meta-updater" remote="github" revision="master" />
 
         <!-- BSP layers -->
-	<project path="meta-xilinx" name="Xilinx/meta-xilinx" remote="github" revision="rocko" />
+	<project path="meta-xilinx" name="Xilinx/meta-xilinx" remote="github" revision="master" />
 
 </manifest>
 
